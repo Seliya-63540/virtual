@@ -1,4 +1,3 @@
-const apiKey = process.env.GEMINI_API_KEY;
 import { GoogleGenAI } from '@google/genai';
 
 const API_KEY = import.meta.env.VITE_API_KEY || import.meta.env.VITE_GEMINI_API_KEY;
